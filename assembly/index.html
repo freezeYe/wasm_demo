@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <script type="module">
+      import { arrAdd, runMyFunction, newObject, setObjectField, getObjectField } from "./build/release.js";
+      console.log('arrAdd: ', arrAdd([1, 2, 3]))
+      console.log('runMyFunction: ', runMyFunction())
+
+      const obj = newObject()
+      setObjectField(obj, 'happy birthday')
+      console.log('obj: ', getObjectField(obj), obj)
+    </script>
+  </head>
+
+  <body></body>
+
+</html>
