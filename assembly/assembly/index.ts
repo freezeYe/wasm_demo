@@ -6,7 +6,9 @@
 // }
 
 export function sum(a: i32, b:i32): i32 {
-  return a + b
+  const result: i32 =  a + b
+  console.log('result')
+  return result
 }
 
 // // Object
